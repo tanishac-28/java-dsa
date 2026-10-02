@@ -24,3 +24,10 @@ public class SecondLargest {
         System.out.println(findLargest(nums));
     }
 }
+
+
+
+/*
+Time complexity = O(n)
+Space complexity = O(1)
+*/
