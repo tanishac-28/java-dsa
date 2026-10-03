@@ -20,3 +20,8 @@ public class ArraysIsSortedOrRotated {
         System.out.println(check(nums));
     }
 }
+
+
+
+// Time Complexity :- O(N)
+// Space Complexity :- O(1)
