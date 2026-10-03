@@ -23,3 +23,7 @@ public interface ArrayIsSorted {
 
 
 
+// Time Complexity:- O(N)
+// Space Complexxity :- O(1)
+
+
