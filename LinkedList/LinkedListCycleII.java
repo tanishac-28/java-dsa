@@ -12,6 +12,8 @@ package LinkedList;
  * Output: Node with value 2
  * Explanation: There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed).
  *
+ 
+ 
  * Approach: Floyd's Cycle Detection & Phase 2 Pointer Reset
  * - 1. Detect Cycle: Initialize `slow` and `fast` pointers at `head`. Move `slow` by 1 step 
  *      and `fast` by 2 steps. If they meet (`slow == fast`), a cycle is detected.
