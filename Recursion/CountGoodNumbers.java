@@ -19,6 +19,12 @@ package Recursion;
  * (0, 2, 4, 6, 8), and positions 1 and 3 (odd indices) have 4 choices each
  * (2, 3, 5, 7). So the total is 5 * 4 * 5 * 4 = 400.
  *
+ 
+
+
+
+
+
  * Approach: Counting + Fast Exponentiation (recursion)
  * - Every even index has 5 choices and every odd index has 4 choices, and
  *   all the positions are independent, so the answer is
