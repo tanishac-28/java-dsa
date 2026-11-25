@@ -12,7 +12,12 @@ package Recursion;
  * Explanation: The 5 valid strings are 000, 001, 010, 100 and 101.
  * (For n = 2 the answer is 3: 00, 01, 10.)
  *
- * Approach: Fibonacci pattern (space optimized DP)
+
+
+
+
+ * Approach: Fibonacci pattern (space optimized DP):-
+
  * - Look at the last bit of a valid string of length i:
  *   - If it ends in 0, the previous part can be any valid string of length
  *     i - 1.
