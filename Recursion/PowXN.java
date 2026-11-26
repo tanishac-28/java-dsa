@@ -12,6 +12,7 @@ package Recursion;
  *
  
 
+
  * Approach: Binary Exponentiation (recursion, halving the power)
  * - Multiplying x by itself n times takes O(n) time, which is too slow for
  *   a large n. Instead, halve the power in every step:

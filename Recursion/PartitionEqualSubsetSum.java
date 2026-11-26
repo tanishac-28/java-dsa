@@ -13,7 +13,9 @@ package Recursion;
  * subsets have the sum 11.
  * (For nums = [1, 2, 3, 5] the output is false, because the total sum 11 is
  * odd.)
- *
+ 
+
+
  * Approach: Subset Sum (0/1 Knapsack) with a 1D DP array
  * - Two subsets with equal sum are possible only if the total sum is even.
  *   If it is odd, return false.

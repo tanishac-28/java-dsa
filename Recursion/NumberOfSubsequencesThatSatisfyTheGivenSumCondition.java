@@ -14,7 +14,11 @@ import java.util.Arrays;
  * Output: 4
  * Explanation: The 4 valid subsequences are [3], [3, 5], [3, 6] and
  * [3, 5, 6]. For example, [3, 6] has min + max = 3 + 6 = 9 <= 9.
- *
+ 
+
+
+
+
  * Approach: Sort + Two Pointers + Powers of 2
  * - A subsequence does not depend on the order of elements, and we only care
  *   about its minimum and maximum. So sort the array, then the minimum and

@@ -23,8 +23,6 @@ package Recursion;
 
 
 
-
-
  * Approach: Counting + Fast Exponentiation (recursion)
  * - Every even index has 5 choices and every odd index has 4 choices, and
  *   all the positions are independent, so the answer is

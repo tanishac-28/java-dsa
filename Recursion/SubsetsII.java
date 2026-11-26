@@ -16,7 +16,9 @@ import java.util.List;
  * Output: [[], [1], [1, 2], [1, 2, 2], [2], [2, 2]]
  * Explanation: Without handling duplicates, [1, 2] and [2] would be created
  * twice. Each distinct subset must appear only once.
- *
+ 
+
+
  * Approach: Sort + Backtracking (skip duplicates at the same level)
  * - Sort the array first, so equal elements come next to each other.
  * - Use the same backtracking as the Subsets problem: store a copy of the
