@@ -11,7 +11,9 @@ package Arrays;
  * Explanation: [1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1]
  * The numbers at index 5 and 10 are flipped from 0 to 1, so the longest
  * subarray of 1s has length 6.
- *
+ 
+
+
  * Approach: Sliding Window (variable size)
  * - Find the longest window that contains at most k zeros, because every
  *   zero inside it can be flipped to 1.
