@@ -11,7 +11,10 @@ import java.util.HashSet;
  * Input: nums = [1, 2, 3, 1]
  * Output: true
  * Explanation: The element 1 occurs at the indices 0 and 3.
- *
+ 
+
+
+
  * Approach: HashSet
  * - Traverse the array once and keep a set of the numbers seen so far.
  * - If the current number is already in the set, a duplicate exists,
