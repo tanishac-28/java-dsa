@@ -13,7 +13,10 @@ import java.util.List;
  * Output: [1, 2]
  * Explanation: n = 8, so ⌊ n / 3 ⌋ = 2. The elements 1 and 2 appear 3 times
  * each (more than 2), while 3 appears only 2 times.
- *
+ 
+
+
+
  * Approach: Extended Boyer-Moore Voting Algorithm
  * - At most two elements can appear more than n / 3 times, so keep two
  *   candidates (ele1, ele2) with their counts (count1, count2).
