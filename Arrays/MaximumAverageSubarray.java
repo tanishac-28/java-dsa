@@ -13,7 +13,10 @@ import java.util.Arrays;
  * Input: nums = [1, 12, -5, -6, 50, 3], k = 4
  * Output: 12.75
  * Explanation: Maximum average is (12 - 5 - 6 + 50) / 4 = 51 / 4 = 12.75
- *
+ 
+
+
+
  * Approach: Sliding Window
  * - All windows have the same length k, so the window with the maximum sum
  *   also has the maximum average.

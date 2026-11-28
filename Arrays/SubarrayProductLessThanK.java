@@ -13,7 +13,9 @@ package Arrays;
  * [10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6]
  * Note that [10, 5, 2] is not included as the product is 100, which is not
  * strictly less than k.
- *
+ 
+
+
  * Approach: Sliding Window (variable size)
  * - Keep a window [left, right] whose product is always less than k.
  * - Expand the window by moving right and multiply nums[right] into product.

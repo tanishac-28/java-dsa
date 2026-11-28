@@ -15,7 +15,9 @@ import java.util.List;
  * Example:
  * Input: nums = [-1, 0, 1, 2, -1, -4]
  * Output: [[-1, -1, 2], [-1, 0, 1]]
- *
+ 
+
+
  * Approach: Sorting + Two Pointers
  * - Sort the array so that duplicates sit together and two pointers work.
  * - Fix one number nums[i], then find a pair in the rest of the array
