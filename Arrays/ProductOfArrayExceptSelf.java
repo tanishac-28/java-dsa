@@ -14,7 +14,9 @@ import java.util.Arrays;
  * Example:
  * Input: nums = [1, 2, 3, 4]
  * Output: [24, 12, 8, 6]
- *
+ 
+
+
  * Approach: Prefix Product + Suffix Product (without extra arrays)
  * - For every index i, answer[i] = (product of all elements on the left of i)
  *   * (product of all elements on the right of i).
